@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { connect } from 'react-redux'
 import { colorSchema } from './Colors'
-import { setUsersToShow } from '../../redux/actions/appActions'
+import { setUsersToShow } from '../../redux/actions'
 import styles from './month.module.css'
 
 function MonthsItem({ month, users, setUsersToShow }) {
@@ -9,18 +9,15 @@ function MonthsItem({ month, users, setUsersToShow }) {
   const [monthColor, setMonthColor] = useState(null)
 
   const sortUsersByMonths = () => {
-    const usersInMonth = []
-    users.map(user => {
-      if (new Date(user.dob).getMonth() + 1 === month.number) {
-        return usersInMonth.push(user)
-      }
-    })
+    const usersInMonth = users
+      .filter(user => new Date(user.dob).getMonth() + 1 === month.number);
+
     setMonthUsersState(usersInMonth)
     monthColorHandler(usersInMonth.length)
   }
 
   const monthColorHandler = (usersLength) => {
-    colorSchema.map(col => {
+    colorSchema.forEach(col => {
       if (usersLength >= col.min
         && usersLength <= col.max) {
         setMonthColor(col.color)

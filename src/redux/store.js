@@ -1,7 +1,12 @@
 import { createStore, applyMiddleware } from 'redux';
-import rootReducer from './reducers/rootReducer';
 import thunk from 'redux-thunk';
-import { fetchUsers } from './actions/appActions';
+import { fetchUsers } from './actions';
+import { combineReducers } from "redux"
+import reducer from "./reducer";
+
+const rootReducer = combineReducers({
+  app: reducer,
+});
 
 const store = createStore(
   rootReducer,

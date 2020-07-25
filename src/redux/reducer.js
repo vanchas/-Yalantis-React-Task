@@ -1,4 +1,4 @@
-import { FETCH_USERS, SET_USERS_TO_SHOW } from "../actions/appActions";
+import { FETCH_USERS, SET_USERS_TO_SHOW } from "./actions";
 
 const initialState = {
   users: null,

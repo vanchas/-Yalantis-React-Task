@@ -19,3 +19,8 @@
 	align-items: center;
 	color: #fff;
 }
+
+.message {
+	text-align: center;
+	margin-top: 3em;
+}

@@ -1,9 +1,9 @@
-import HttpRequest from '../../utils/http/HttpRequest'
 export const FETCH_USERS = 'FETCH_USERS'
 export const SET_USERS_TO_SHOW = 'SET_USERS_TO_SHOW'
 
-export const fetchUsers = () => (dispatch) => {
-  HttpRequest.execute("https://yalantis-react-school-api.yalantis.com/api/task0/users", "GET")
+export const fetchUsers = () => async (dispatch) => {
+  return await fetch("https://yalantis-react-school-api.yalantis.com/api/task0/users")
+    .then(res => res.json())
     .then(data => {
       return dispatch({ type: FETCH_USERS, payload: data })
     }).catch(err => console.error(err))
