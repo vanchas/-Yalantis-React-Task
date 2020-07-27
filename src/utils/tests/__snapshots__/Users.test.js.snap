@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link should render correctly 1`] = `
+<li
+  className="list_item"
+>
+  <i>
+    0
+  </i>
+   
+  <b>
+    Mark
+     
+    Tven
+  </b>
+</li>
+`;
+
+exports[`Link should render correctly 2`] = `
+<Fragment>
+  <ul
+    className="list"
+  >
+    <UsersListItem
+      index={1}
+      key="18f7tsdfg8sdt"
+      user={
+        Object {
+          "firstName": "Mark",
+          "id": "18f7tsdfg8sdt",
+          "lastName": "Tven",
+        }
+      }
+    />
+    <UsersListItem
+      index={2}
+      key="2gas7itd7ait7"
+      user={
+        Object {
+          "firstName": "Ilon",
+          "id": "2gas7itd7ait7",
+          "lastName": "Mask",
+        }
+      }
+    />
+  </ul>
+</Fragment>
+`;

@@ -1,9 +1,8 @@
 import React from 'react'
 import UsersListItem from './UsersListItem'
 import styles from './users.module.css'
-import { connect } from 'react-redux'
 
-function UsersList({ users }) {
+export default function UsersList({ users }) {
 
   return (
     <>
@@ -21,8 +20,3 @@ function UsersList({ users }) {
   )
 }
 
-const mapStateToProps = (state) => ({
-  users: state.app.usersToShow
-})
-
-export default connect(mapStateToProps, null)(UsersList)

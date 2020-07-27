@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link should render correctly 1`] = `
+<div
+  className="App"
+>
+  <MonthsList
+    setUsersToShow={[Function]}
+    users={null}
+  />
+  <UsersList
+    users={null}
+  />
+</div>
+`;

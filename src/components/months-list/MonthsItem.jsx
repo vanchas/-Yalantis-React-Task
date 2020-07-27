@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { connect } from 'react-redux'
-import { colorSchema } from './Colors'
-import { setUsersToShow } from '../../redux/actions'
+import colorSchema from '../../data/Colors'
 import styles from './month.module.css'
 
-function MonthsItem({ month, users, setUsersToShow }) {
+export default function MonthsItem({ month, users, setUsersToShow }) {
   const [monthUsersState, setMonthUsersState] = useState([])
   const [monthColor, setMonthColor] = useState(null)
 
@@ -43,13 +41,3 @@ function MonthsItem({ month, users, setUsersToShow }) {
     </li>
   )
 }
-
-const mapStateToProps = (state) => ({
-  users: state.app.users
-})
-
-const mapDispatchToProps = {
-  setUsersToShow
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(MonthsItem)

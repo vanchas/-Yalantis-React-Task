@@ -4,7 +4,7 @@
 // [7-10] - зелений
 // [11+] - червоний
 
-export const colorSchema = [
+export default [
   { min: 0, max: 2, color: '#6c757d' },
   { min: 3, max: 6, color: '#0d6efd' },
   { min: 7, max: 10, color: '#4ab563' },

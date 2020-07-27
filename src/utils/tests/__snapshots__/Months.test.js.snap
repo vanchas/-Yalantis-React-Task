@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link should handle state changes 1`] = `<Fragment />`;
+
+exports[`Link should render correctly 1`] = `
+<li
+  className="list_item"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={null}
+>
+  <span>
+    January
+     
+    <small>
+      (
+      0
+      )
+    </small>
+  </span>
+</li>
+`;
+
+exports[`Link should render correctly 2`] = `
+<ul
+  className="list"
+>
+  <MonthsItem
+    key="1"
+    month={
+      Object {
+        "name": "January",
+        "number": 1,
+      }
+    }
+    users={
+      Array [
+        Object {
+          "firstName": "Mark",
+          "id": "18f7tsdfg8sdt",
+          "lastName": "Tven",
+        },
+        Object {
+          "firstName": "Ilon",
+          "id": "2gas7itd7ait7",
+          "lastName": "Mask",
+        },
+      ]
+    }
+  />
+  <MonthsItem
+    key="2"
+    month={
+      Object {
+        "name": "February",
+        "number": 2,
+      }
+    }
+    users={
+      Array [
+        Object {
+          "firstName": "Mark",
+          "id": "18f7tsdfg8sdt",
+          "lastName": "Tven",
+        },
+        Object {
+          "firstName": "Ilon",
+          "id": "2gas7itd7ait7",
+          "lastName": "Mask",
+        },
+      ]
+    }
+  />
+  <MonthsItem
+    key="3"
+    month={
+      Object {
+        "name": "March",
+        "number": 3,
+      }
+    }
+    users={
+      Array [
+        Object {
+          "firstName": "Mark",
+          "id": "18f7tsdfg8sdt",
+          "lastName": "Tven",
+        },
+        Object {
+          "firstName": "Ilon",
+          "id": "2gas7itd7ait7",
+          "lastName": "Mask",
+        },
+      ]
+    }
+  />
+  <MonthsItem
+    key="4"
+    month={
+      Object {
+        "name": "April",
+        "number": 4,
+      }
+    }
+    users={
+      Array [
+        Object {
+          "firstName": "Mark",
+          "id": "18f7tsdfg8sdt",
+          "lastName": "Tven",
+        },
+        Object {
+          "firstName": "Ilon",
+          "id": "2gas7itd7ait7",
+          "lastName": "Mask",
+        },
+      ]
+    }
+  />
+  <MonthsItem
+    key="5"
+    month={
+      Object {
+        "name": "May",
+        "number": 5,
+      }
+    }
+    users={
+      Array [
+        Object {
+          "firstName": "Mark",
+          "id": "18f7tsdfg8sdt",
+          "lastName": "Tven",
+        },
+        Object {
+          "firstName": "Ilon",
+          "id": "2gas7itd7ait7",
+          "lastName": "Mask",
+        },
+      ]
+    }
+  />
+  <MonthsItem
+    key="6"
+    month={
+      Object {
+        "name": "June",
+        "number": 6,
+      }
+    }
+    users={
+      Array [
+        Object {
+          "firstName": "Mark",
+          "id": "18f7tsdfg8sdt",
+          "lastName": "Tven",
+        },
+        Object {
+          "firstName": "Ilon",
+          "id": "2gas7itd7ait7",
+          "lastName": "Mask",
+        },
+      ]
+    }
+  />
+  <MonthsItem
+    key="7"
+    month={
+      Object {
+        "name": "July",
+        "number": 7,
+      }
+    }
+    users={
+      Array [
+        Object {
+          "firstName": "Mark",
+          "id": "18f7tsdfg8sdt",
+          "lastName": "Tven",
+        },
+        Object {
+          "firstName": "Ilon",
+          "id": "2gas7itd7ait7",
+          "lastName": "Mask",
+        },
+      ]
+    }
+  />
+  <MonthsItem
+    key="8"
+    month={
+      Object {
+        "name": "August",
+        "number": 8,
+      }
+    }
+    users={
+      Array [
+        Object {
+          "firstName": "Mark",
+          "id": "18f7tsdfg8sdt",
+          "lastName": "Tven",
+        },
+        Object {
+          "firstName": "Ilon",
+          "id": "2gas7itd7ait7",
+          "lastName": "Mask",
+        },
+      ]
+    }
+  />
+  <MonthsItem
+    key="9"
+    month={
+      Object {
+        "name": "September",
+        "number": 9,
+      }
+    }
+    users={
+      Array [
+        Object {
+          "firstName": "Mark",
+          "id": "18f7tsdfg8sdt",
+          "lastName": "Tven",
+        },
+        Object {
+          "firstName": "Ilon",
+          "id": "2gas7itd7ait7",
+          "lastName": "Mask",
+        },
+      ]
+    }
+  />
+  <MonthsItem
+    key="10"
+    month={
+      Object {
+        "name": "October",
+        "number": 10,
+      }
+    }
+    users={
+      Array [
+        Object {
+          "firstName": "Mark",
+          "id": "18f7tsdfg8sdt",
+          "lastName": "Tven",
+        },
+        Object {
+          "firstName": "Ilon",
+          "id": "2gas7itd7ait7",
+          "lastName": "Mask",
+        },
+      ]
+    }
+  />
+  <MonthsItem
+    key="11"
+    month={
+      Object {
+        "name": "November",
+        "number": 11,
+      }
+    }
+    users={
+      Array [
+        Object {
+          "firstName": "Mark",
+          "id": "18f7tsdfg8sdt",
+          "lastName": "Tven",
+        },
+        Object {
+          "firstName": "Ilon",
+          "id": "2gas7itd7ait7",
+          "lastName": "Mask",
+        },
+      ]
+    }
+  />
+  <MonthsItem
+    key="12"
+    month={
+      Object {
+        "name": "December",
+        "number": 12,
+      }
+    }
+    users={
+      Array [
+        Object {
+          "firstName": "Mark",
+          "id": "18f7tsdfg8sdt",
+          "lastName": "Tven",
+        },
+        Object {
+          "firstName": "Ilon",
+          "id": "2gas7itd7ait7",
+          "lastName": "Mask",
+        },
+      ]
+    }
+  />
+</ul>
+`;
